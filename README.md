@@ -53,7 +53,9 @@ pip3 install "uvicorn[standard]"
 
 ### Run Locally
 
+```shell
 PYTHONPATH=. poetry run python3 data_tracker/__main__.py
+```
 
 ### Debug in PyCharm
 
