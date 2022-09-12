@@ -72,7 +72,7 @@ In order to update a rank we need to compute sliding window standard deviation. 
 time when we receive a new price. All we need to track last 24 hours records in a queue (remove expired
 from a head of the queue and append a new one to the tail) and keep a sum of prices, sum of squares of
 the prices and total count of signals in the queue 
-see [StatCollector](./data_tracker/server/controller/stat/stat_aggregator.py). See, the formula:
+see [StatAggregator](./data_tracker/server/controller/stat/stat_aggregator.py). See, the formula:
 ![img.png](img.png)
 
 Once a new standard deviation received for a particular pair, we recompute ranks for all pairs. The number
