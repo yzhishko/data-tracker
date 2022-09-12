@@ -149,7 +149,7 @@ View architecture diagram [here](https://lucid.app/lucidspark/22dfdf6a-d9d6-4bb4
 
 ### Regional Scale
 
-The described system can be deployed in multiple regions across the globe and Load Balanced based on user proximity.
+The described system can be deployed in multiple regions across the globe and Load Balanced based on user location.
 
 __IMPORTANT__: all components should be synced via [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) protocol.
 
